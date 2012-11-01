@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+	<bean class="business.StoryList">
+		<property name="stories">
+			<list>
+				<ref bean="HelloWorld" />
+				<ref bean="OnceUpon" />
+			</list>
+		</property>
+	</bean>
+	<bean id="HelloWorld" class="business.Story">
+		<property name="title">
+			<value>Hello World!</value>
+		</property>
+		<property name="author">
+			<value>User:Hyad</value>
+		</property>
+		<property name="content">
+			<value>
+				This is a simple story. This is a story about a man who
+				said, "Hello, World." See, now wasn't that simple.
+			</value>
+		</property>
+	</bean>
+
+	<bean id="OnceUpon" class="business.Story">
+		<property name="title">
+			<value>Once Upon a Time</value>
+		</property>
+		<property name="author">
+			<value>Rob Yates</value>
+		</property>
+		<property name="content">
+			<value>
+				Once upon a time there were some interesting things
+				going on. The end.
+			</value>
+		</property>
+	</bean>
+	<aop:aspectj-autoproxy/>
+	<bean class="aspect.LogAspect"/>
+
+
+</beans>
