@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+	
+	<bean id="server" class="server.MainServer">
+		<property name="theChatRoom">
+			<ref bean="idConcrChatRoom" />
+		</property>
+		<property name="theAuthent">
+			<ref bean="idConcrAuthent" />
+		</property>
+	</bean>
+	
+	<bean id="idConcrChatRoom" class="server.ChatRoomImpl">
+		<property name="users">
+			<map key-type="java.lang.String" value-type="client.ChatUser"/>
+		</property>
+	</bean>
+	
+	<bean id="idConcrAuthent" class="server.Authent">
+		<property name="alloweduser">
+			<map key-type="java.lang.String" value-type="java.lang.String">
+				<entry key="toto" value="passtoto"/>
+				<entry key="titi" value="passtiti"/>
+				<entry key="test" value="passtest"/>
+			</map>
+		</property>
+		<property name="laStrat">
+			<ref bean="idConcrStrategyPassw" />
+		</property>
+		<property name="debug">
+			<value type="boolean">true</value>
+		</property>
+	</bean>
+	
+	<bean id="idConcrStrategyPassw" class="server.StrategyVerifPasswSimpleConcrete"/>
+	
+	<!--  <bean id="idLogAspect" class="server.LogAspect"/> -->
+	
+	<bean id="idConcrHeavyStrategyPassw" class="server.StrategyVerifPasswHeavyConcrete"/>
+	
+	<!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+	
+	<bean id="realChatUser" class="client.ChatUserImpl">
+		<property name="name">
+			<value type="java.lang.String">essai1</value>
+		</property>
+		<property name="ui">
+			<ref bean="idChatUI" />
+		</property>
+		<property name="cmdSubscr">
+			<ref bean="idCmdSubscr"/>
+		</property>
+	</bean>
+	
+	<bean id="idChatUI" class="client.ChatUI">
+		<property name="unregisterCmd">
+			<ref bean="idCmdUnsubscr"/>
+		</property>
+		<property name="postMessageCmd">
+			<ref bean="idCmdPostMsg"/>
+		</property>
+		<property name="u">
+			<ref bean="realChatUser"/>
+		</property>
+		<property name="title">
+			<value type="java.lang.String">Logiciel de discussion en ligne</value>
+		</property>
+		<property name="window">
+			<ref bean="idFrameInstance"/>
+			<!-- <value type="javax.swing.JFrame"/> -->
+		</property>
+		<property name="txtOutput">
+			<ref bean="idTextAreaInstance"/>
+			<!-- <value type="javax.swing.JTextArea"/> -->
+		</property>
+		<property name="txtMessage">
+			<ref bean="idTextFieldInstance"/>
+			<!-- <value type="javax.swing.JTextField"/>  -->
+		</property>
+		<property name="btnSend">
+			<ref bean="idButtonInstance"/>
+			<!-- <value type="javax.swing.JButton"/> -->
+		</property>
+	</bean>
+	
+	<bean id="idFrameInstance" class="javax.swing.JFrame">
+		<!-- <property name="title" value="client.ChatUI.title"/> -->
+	</bean>
+	
+	<bean id="idTextAreaInstance" class="javax.swing.JTextArea">
+		<!-- <property name="title" value="client.ChatUI.title"/> -->
+	</bean>
+	
+	<bean id="idTextFieldInstance" class="javax.swing.JTextField">
+		<!-- <property name="title" value="client.ChatUI.title"/> -->
+	</bean>
+	
+	<bean id="idButtonInstance" class="javax.swing.JButton">
+		<property name="text" value="Envoyer"/>
+	</bean>
+	
+	<bean id="idCmdPostMsg" class="client.CommandeServChatRoomPostMessage">
+		<property name="target">
+			<ref bean="idConcrChatRoom"/>
+		</property>
+		<property name="user">
+			<ref bean="realChatUser"/>
+		</property>
+	</bean>
+	
+	<bean id="idCmdSubscr" class="client.CommandeServChatRoomSubscribe">
+		<property name="target">
+			<ref bean="idConcrChatRoom"/>
+		</property>
+		<property name="user">
+			<ref bean="realChatUser"/>
+		</property>
+	</bean>
+	
+	<bean id="idCmdUnsubscr" class="client.CommandeServChatRoomUnsubscribe">
+		<property name="target">
+			<ref bean="idConcrChatRoom"/>
+		</property>
+		<property name="user">
+			<ref bean="realChatUser"/>
+		</property>
+	</bean>
+	
+	<bean id="idMain" class="client.Main">
+	
+	</bean>
+	
+	<bean id="idSmpLoginModule" class="client.SampleLoginModule">
+		<property name="subject">
+		<ref bean="idSubject"/>
+			<!-- <value type="javax.security.auth.Subject"/> -->
+		</property>
+		<property name="callbackHandler">
+		<ref bean="idCallback"/>
+			<!--  <value type="javax.security.auth.callback.DialogCallbackHandler"/> -->
+		</property>
+		<property name="options">
+			<map key-type="java.lang.Object" value-type="java.lang.Object"/>
+		</property>
+		<property name="debug">
+			<value type="boolean">false</value>
+		</property>
+		<property name="succeeded">
+			<value type="boolean">false</value>
+		</property>
+		<property name="commitSucceeded">
+			<value type="boolean">false</value>
+		</property>
+		<property name="cmdAuthent">
+			<ref bean="idCmdAuthent"/>
+		</property>
+	</bean>
+	
+	<bean name="idSubject" class="javax.security.auth.Subject"/>
+	
+	<bean name="idCallback" class="com.sun.security.auth.callback.DialogCallbackHandler"/>
+	
+	<bean id="idSamplePrincipal" class="client.SamplePrincipal"/>
+	
+	<bean id="idCmdAuthent" class="client.CommandeServAuthent">
+		<property name="target">
+			<ref bean="server"/>
+		</property>
+		<property name="usern">
+			<value type="java.lang.String"></value>
+		</property>
+		<property name="passw">
+			<value type="java.lang.String"></value>
+		</property>
+	</bean>
+	
+	<aop:aspectj-autoproxy proxy-target-class="true"/>
+	<bean class="server.LogAspect"/>
+
+</beans>

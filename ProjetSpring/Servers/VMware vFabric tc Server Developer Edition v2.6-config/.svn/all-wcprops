@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/55/trunk/TAA/ProjetSpring/Servers/VMware%20vFabric%20tc%20Server%20Developer%20Edition%20v2.6-config
+END
+context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/55/trunk/TAA/ProjetSpring/Servers/VMware%20vFabric%20tc%20Server%20Developer%20Edition%20v2.6-config/context.xml
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/55/trunk/TAA/ProjetSpring/Servers/VMware%20vFabric%20tc%20Server%20Developer%20Edition%20v2.6-config/server.xml
+END
+tomcat-users.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/55/trunk/TAA/ProjetSpring/Servers/VMware%20vFabric%20tc%20Server%20Developer%20Edition%20v2.6-config/tomcat-users.xml
+END
+catalina.properties
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/55/trunk/TAA/ProjetSpring/Servers/VMware%20vFabric%20tc%20Server%20Developer%20Edition%20v2.6-config/catalina.properties
+END
+catalina.policy
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/55/trunk/TAA/ProjetSpring/Servers/VMware%20vFabric%20tc%20Server%20Developer%20Edition%20v2.6-config/catalina.policy
+END
+jmxremote.access
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/55/trunk/TAA/ProjetSpring/Servers/VMware%20vFabric%20tc%20Server%20Developer%20Edition%20v2.6-config/jmxremote.access
+END
+jmxremote.password
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/55/trunk/TAA/ProjetSpring/Servers/VMware%20vFabric%20tc%20Server%20Developer%20Edition%20v2.6-config/jmxremote.password
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/55/trunk/TAA/ProjetSpring/Servers/VMware%20vFabric%20tc%20Server%20Developer%20Edition%20v2.6-config/web.xml
+END
