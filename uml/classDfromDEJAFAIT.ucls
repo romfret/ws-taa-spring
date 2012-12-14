@@ -1,0 +1,477 @@
+<class-diagram version="1.0.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="test.Test" project="ProjetSpring" 
+    file="/ProjetSpring/src/test/Test.java" binary="false">    
+    <position height="77" width="96" x="213" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="client.CommandeServAuthent" project="ProjetSpring" 
+    file="/ProjetSpring/src/client/CommandeServAuthent.java" binary="false">    
+    <position height="230" width="186" x="2865" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="helpSpring.p1.A" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring/p1/A.java" binary="false">    
+    <position height="162" width="139" x="349" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="helpSpring.p1.B" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring/p1/B.java" binary="false">    
+    <position height="77" width="96" x="349" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="client.Main" project="ProjetSpring" 
+    file="/ProjetSpring/src/client/Main.java" binary="false">    
+    <position height="94" width="123" x="528" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <package id="6" corner="BOTTOM_RIGHT" language="java" name="helpSpring" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring" binary="false">    
+    <position height="49" width="113" x="691" y="-34"/>    
+    <display autosize="true" stereotype="true"/>  
+  </package>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="client.SamplePrincipal" project="ProjetSpring" 
+    file="/ProjetSpring/src/client/SamplePrincipal.java" binary="false">    
+    <position height="179" width="152" x="2673" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="helpSpring.aspect.LogAspect" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring/aspect/LogAspect.java" binary="false">    
+    <position height="111" width="162" x="844" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" name="server.MainServer" project="ProjetSpring" 
+    file="/ProjetSpring/src/server/MainServer.java" binary="false">    
+    <position height="213" width="230" x="2132" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" corner="BOTTOM_RIGHT" language="java" name="server.StrategyVerifPassw" project="ProjetSpring" 
+    file="/ProjetSpring/src/server/StrategyVerifPassw.java" binary="false">    
+    <position height="77" width="220" x="4017" y="948"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="server.Authent" project="ProjetSpring" 
+    file="/ProjetSpring/src/server/Authent.java" binary="false">    
+    <position height="264" width="247" x="3709" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="server.LogAspect" project="ProjetSpring" 
+    file="/ProjetSpring/src/server/LogAspect.java" binary="false">    
+    <position height="111" width="172" x="1046" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" corner="BOTTOM_RIGHT" language="java" name="client.Commande" project="ProjetSpring" 
+    file="/ProjetSpring/src/client/Commande.java" binary="false">    
+    <position height="111" width="144" x="2865" y="948"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" corner="BOTTOM_RIGHT" language="java" name="client.ChatUI" project="ProjetSpring" 
+    file="/ProjetSpring/src/client/ChatUI.java" binary="false">    
+    <position height="383" width="266" x="3403" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="15" corner="BOTTOM_RIGHT" language="java" name="helpSpring.business.StoryList" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring/business/StoryList.java" binary="false">    
+    <position height="145" width="131" x="1258" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" corner="BOTTOM_RIGHT" language="java" name="client.User" project="ProjetSpring" 
+    file="/ProjetSpring/src/client/User.java" binary="false">    
+    <position height="77" width="126" x="1467" y="948"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <package id="17" corner="BOTTOM_RIGHT" language="java" name="helpSpring.business" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring/business" binary="false">    
+    <position height="49" width="166" x="1429" y="-34"/>    
+    <display autosize="true" stereotype="true"/>  
+  </package>  
+  <package id="18" corner="BOTTOM_RIGHT" language="java" name="test" project="ProjetSpring" 
+    file="/ProjetSpring/src/test" binary="false">    
+    <position height="49" width="113" x="1635" y="-34"/>    
+    <display autosize="true" stereotype="true"/>  
+  </package>  
+  <class id="19" corner="BOTTOM_RIGHT" language="java" name="client.CommandeServChatRoomUnsubscribe" 
+    project="ProjetSpring" file="/ProjetSpring/src/client/CommandeServChatRoomUnsubscribe.java" binary="false">    
+    <position height="128" width="290" x="1467" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <package id="20" corner="BOTTOM_RIGHT" language="java" name="helpSpring.aspect" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring/aspect" binary="false">    
+    <position height="49" width="149" x="1788" y="-34"/>    
+    <display autosize="true" stereotype="true"/>  
+  </package>  
+  <interface id="21" corner="BOTTOM_RIGHT" language="java" name="client.ChatUser" project="ProjetSpring" 
+    file="/ProjetSpring/src/client/ChatUser.java" binary="false">    
+    <position height="77" width="179" x="3403" y="948"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="22" corner="BOTTOM_RIGHT" language="java" name="client.CommandeServChatRoomSubscribe" 
+    project="ProjetSpring" file="/ProjetSpring/src/client/CommandeServChatRoomSubscribe.java" binary="false">    
+    <position height="162" width="272" x="3091" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="23" corner="BOTTOM_RIGHT" language="java" name="client.SampleLoginModule" project="ProjetSpring" 
+    file="/ProjetSpring/src/client/SampleLoginModule.java" binary="false">    
+    <position height="519" width="405" x="2865" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="24" corner="BOTTOM_RIGHT" language="java" name="server.ChatRoomImpl" project="ProjetSpring" 
+    file="/ProjetSpring/src/server/ChatRoomImpl.java" binary="false">    
+    <position height="162" width="231" x="2402" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="25" corner="BOTTOM_RIGHT" language="java" name="server.IAuthent" project="ProjetSpring" 
+    file="/ProjetSpring/src/server/IAuthent.java" binary="false">    
+    <position height="77" width="230" x="3049" y="948"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <package id="26" corner="BOTTOM_RIGHT" language="java" name="server" project="ProjetSpring" 
+    file="/ProjetSpring/src/server" binary="false">    
+    <position height="49" width="113" x="1977" y="-34"/>    
+    <display autosize="true" stereotype="true"/>  
+  </package>  
+  <class id="27" corner="BOTTOM_RIGHT" language="java" name="server.StrategyVerifPasswHeavyConcrete" 
+    project="ProjetSpring" file="/ProjetSpring/src/server/StrategyVerifPasswHeavyConcrete.java" binary="false">    
+    <position height="94" width="260" x="4017" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="28" corner="BOTTOM_RIGHT" language="java" name="client.ChatUserImpl" project="ProjetSpring" 
+    file="/ProjetSpring/src/client/ChatUserImpl.java" binary="false">    
+    <position height="247" width="341" x="3310" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="29" corner="BOTTOM_RIGHT" language="java" name="server.StrategyVerifPasswSimpleConcrete" 
+    project="ProjetSpring" file="/ProjetSpring/src/server/StrategyVerifPasswSimpleConcrete.java" binary="false">    
+    <position height="94" width="264" x="4317" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="30" corner="BOTTOM_RIGHT" language="java" name="client.CommandeServChatRoomPostMessage" 
+    project="ProjetSpring" file="/ProjetSpring/src/client/CommandeServChatRoomPostMessage.java" binary="false">    
+    <position height="162" width="295" x="1797" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="31" corner="BOTTOM_RIGHT" language="java" name="server.IMainServer" project="ProjetSpring" 
+    file="/ProjetSpring/src/server/IMainServer.java" binary="false">    
+    <position height="128" width="230" x="2498" y="948"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="32" corner="BOTTOM_RIGHT" language="java" name="helpSpring.business.Story" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring/business/Story.java" binary="false">    
+    <position height="230" width="149" x="2130" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="33" corner="BOTTOM_RIGHT" language="java" name="server.LogHelper" project="ProjetSpring" 
+    file="/ProjetSpring/src/server/LogHelper.java" binary="false">    
+    <position height="94" width="183" x="2319" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="34" corner="BOTTOM_RIGHT" language="java" name="helpSpring.business.StoryReader" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring/business/StoryReader.java" binary="false">    
+    <position height="94" width="123" x="2542" y="-34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="35" corner="BOTTOM_RIGHT" language="java" name="server.ChatRoom" project="ProjetSpring" 
+    file="/ProjetSpring/src/server/ChatRoom.java" binary="false">    
+    <position height="111" width="198" x="2132" y="948"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <package id="36" corner="BOTTOM_RIGHT" language="java" name="helpSpring.p1" project="ProjetSpring" 
+    file="/ProjetSpring/src/helpSpring/p1" binary="false">    
+    <position height="49" width="120" x="2705" y="-34"/>    
+    <display autosize="true" stereotype="true"/>  
+  </package>  
+  <realization id="37">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="38">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="39">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="25"/>  
+  </realization>  
+  <realization id="40">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="41">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="42" name="unregisterCmd"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="45" name="user"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="48" name="b"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="51" name="cmdAuthent"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="54" name="theAuthent"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="57" name="laStrat"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="59">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="60">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="61" name="userPrincipal"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="64" name="user"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="67" name="target"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="70" name="postMessageCmd"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="73" name="u"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="75">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="76">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="35"/>  
+  </realization>  
+  <association id="77">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="78" name="user"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="80">    
+    <bendpoint x="1436" y="525"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <association id="81">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="82" name="cmdSubscr"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="84">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="85" name="target"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="88" name="target"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="90">    
+    <bendpoint x="3986" y="525"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <realization id="91">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <association id="92">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="93" name="theChatRoom"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="96" name="ui"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="98">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="99">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="100" name="users"/>      
+      <multiplicity id="101" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="103" name="target"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
